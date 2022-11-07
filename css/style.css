@@ -53,3 +53,14 @@ body{
     margin: 50px;
     font-size: 20px;
 }
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #E5E5E5;
+    font-size: 12px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
