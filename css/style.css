@@ -37,6 +37,11 @@ body{
     transform: scale(1.2);
 }
 
+img {
+    width: 75%;
+    height: auto;
+}
+
 .score {
     background-color: #14213D;
     color: #FFFFFF;
