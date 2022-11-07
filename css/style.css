@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+body{
+    background-color: #FCA311;
+}
+
+.selector{
+    margin: 75px 20% 75px 20%;
+    display: flex;
+    text-align: center;
+}
+
+.selector-option{
+    flex: 1;
+    cursor: pointer;
+    transition: transform ease 0.5s;
+    transform: scale(1);
+}
+
+.selector-option:hover{
+    transition: transform ease 0.5s;
+    transform: scale(1.5);
+}
